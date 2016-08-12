@@ -1,0 +1,33 @@
+.a {
+    height: 100px;
+    background: lavender;
+    color: white;
+}
+
+.b {
+    height: 100px;
+    background: blue;
+    border: 2px solid black;
+}
+
+.c {
+    height: 100px;
+    background: red;
+    border: 2px solid green;
+}
+
+.d {
+    height: 50px;
+    border: 1px solid black;
+    background: yellow;
+}
+
+.e {
+    height: 50px;
+    background: red
+}
+
+.f {
+    height: 50px;
+    background: pink;  
+}
