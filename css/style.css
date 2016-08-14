@@ -29,5 +29,17 @@
 
 .f {
     height: 50px;
-    background: pink;  
+    background: pink;
+}
+
+.g {
+    height: 100px;
+    background: yellow;
+    border: 2px solid black;
+}
+
+.h {
+    height: 75px;
+    background: black;
+    border: 1px solid green;
 }
