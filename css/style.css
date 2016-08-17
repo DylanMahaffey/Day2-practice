@@ -1,45 +1,129 @@
-.a {
-    height: 100px;
-    background: lavender;
-    color: white;
+@media screen and (min-width: 1200px) {
+
+    .a {
+        height: 100px;
+        background: lavender;
+        color: white;
+    }
+
+    .b {
+        height: 100px;
+        background: blue;
+    }
+
+    .c {
+        height: 100px;
+        background: red;
+    }
+
+    .d {
+        height: 50px;
+        background: yellow;
+    }
+
+    .e {
+        height: 50px;
+        background: red
+    }
+
+    .f {
+        height: 50px;
+        background: pink;
+    }
+
+    .g {
+        height: 100px;
+        background: yellow;
+    }
+
+    .h {
+        height: 75px;
+        background: black;
+        border: 1px solid white;
+    }
+
+    .i {
+        background: yellow;
+    }
+
+    .j {
+        background: green;
+        color: white;
+    }
+
+    .k {
+        background: black;
+        border: 1px solid white;
+        color: white;
+    }
+
+    div {
+        border: 1px solid black;
+        height: 100px;
+    }
+
+    .l {
+        position: fixed;
+        top: 20px;
+        left: 200px;
+    }
+
+}
+@media screen and (min-width: 768px) {
+
+    div {
+        height: 100px;
+        border: 2px solid black;
+    }
+
+    .a {
+        background: blue;
+    }
+
+    .b {
+        background: green;
+    }
+
+    .c {
+        background: white;
+    }
+
+    .d {
+        background: gold;
+        height: 50px
+    }
+
+    .e {
+        background: lavender;
+    }
 }
 
-.b {
-    height: 100px;
-    background: blue;
-    border: 2px solid black;
-}
+@media screen and (min-width: 375px) {
 
-.c {
-    height: 100px;
-    background: red;
-    border: 2px solid green;
-}
+    div {
+        height: 100px;
+        border: 2px solid black;
+    }
 
-.d {
-    height: 50px;
-    border: 1px solid black;
-    background: yellow;
-}
+    .a {
+        background: purple;
+    }
 
-.e {
-    height: 50px;
-    background: red
-}
+    .b {
+        background: orange;
+    }
 
-.f {
-    height: 50px;
-    background: pink;
-}
+    .c {
+        background: black;
+    }
 
-.g {
-    height: 100px;
-    background: yellow;
-    border: 2px solid black;
-}
+    .d {
+        background: silver;
+        height: 50px;
+    }
 
-.h {
-    height: 75px;
-    background: black;
-    border: 1px solid green;
+    .e {
+        background: pink;
+    }
+
 }
