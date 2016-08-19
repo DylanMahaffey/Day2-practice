@@ -1,0 +1,61 @@
+
+
+
+@media screen and (min-width: 375px) {
+    img {
+        position: absolute;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .b {
+        display: none;
+    }
+
+    .c {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    img {
+        position: absolute;
+    }
+
+    .a {
+        display: none;
+    }
+
+    .b {
+        width: 100%;
+        display: block;
+    }
+
+    .c {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    img {
+        position: absolute;
+    }
+
+    .a {
+        width: 100%;
+        display: block;
+    }
+
+    .b {
+        display: none;
+    }
+
+    .c {
+        display: none;
+    }
+
+}
